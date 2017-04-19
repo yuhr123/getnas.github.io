@@ -1,0 +1,1 @@
+[![build status](https://gitlab.com/getnas/getnas.gitlab.io/badges/master/build.svg)](https://gitlab.com/getnas/getnas.gitlab.io/commits/master)
