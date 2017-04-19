@@ -1,0 +1,16 @@
+---
+title: "我的随笔"
+email: yuhr123@gmail.com
+description: |
+  没什么，胡言乱语而已。
+baseurl: ''
+url: ''
+twitter_username: Herald_Yu
+github_username: getnas
+markdown: kramdown
+theme: minima
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
