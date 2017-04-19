@@ -2,6 +2,7 @@
 title: "《儿童安全十大法则》"
 layout: post
 date: '2017-04-19 08:56:52'
+category: diary
 ---
 
 #### 1. I‘m the boss of my body.
