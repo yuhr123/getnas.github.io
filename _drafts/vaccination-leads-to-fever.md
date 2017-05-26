@@ -1,7 +1,6 @@
 ---
 title: 记疫苗接种导致的发热
 layout: post
-date: '2017-05-13 10:28:44'
 category: drafts
 ---
 
