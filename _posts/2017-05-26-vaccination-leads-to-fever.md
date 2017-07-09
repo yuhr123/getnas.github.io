@@ -1,7 +1,6 @@
 ---
 title: 记疫苗接种导致的发热
 layout: post
-category: drafts
 ---
 
 > Vaccination leads to fever
@@ -23,4 +22,3 @@ category: drafts
 到家楼下儿子已经在安全座椅上睡着了，为了让他多睡一会儿，我停好车和老婆在车上多等了一阵子。
 
 雨时大时小，雨不是很大的档口儿子也醒了
-
