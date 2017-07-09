@@ -1,7 +1,6 @@
----
-title: 活页本
+title: 活页夹
 email: yuhr123@gmail.com
-description: '没什么，胡言乱语而已。'
+description: 活页夹就是可以在上面随便写东西，喜欢的可以永远留着，不喜欢的可以随意删除。
 baseurl: ''
 url: ''
 twitter_username: Herald_Yu
@@ -9,8 +8,8 @@ github_username: getnas
 markdown: kramdown
 theme: minima
 gems:
-- jekyll-feed
+  - jekyll-feed
 exclude:
-- Gemfile
-- Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
 show_drafts: true
