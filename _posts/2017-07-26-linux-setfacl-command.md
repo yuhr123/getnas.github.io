@@ -70,3 +70,7 @@ other::r-x
 ```
 ~/mydata$ chmod g+s sync/
 ```
+
+#### 有效权限问题
+
+只有在 `mask` 范围内的用户或组权限设置才有效，例如，`sync` 目录设置了 `easy` 用户的 `rwx` 权限，但 `mask` 为 `r-x`，那么 easy 用户对 sync 目录就只有 `r-x` 查看权限，没有写权限。
