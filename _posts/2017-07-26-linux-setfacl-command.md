@@ -70,5 +70,3 @@ other::r-x
 ```
 ~/mydata$ chmod g+s sync/
 ```
-
-参考：http://man.linuxde.net/setfacl
