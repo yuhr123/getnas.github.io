@@ -26,7 +26,7 @@ max-connection-per-server=5
 创建系统级别 systemd 配置文件
 
 ```
-herald@homeserver:~$ sudo nano /lib/systemd/system/aira2.service
+herald@homeserver:~$ sudo nano /lib/systemd/system/aria2.service
 ```
 
 粘贴以下内容，按需调整 `ExecStart` 部分的命令和参数：
