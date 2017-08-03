@@ -46,7 +46,7 @@ ifconfig $INTERFACE 10.0.0.1 netmask 255.255.255.0
 对于 ip
 #!/bin/sh
 ip link set $INTERFACE up
-ip addr add  10.0.0.1/32 dev $INTERFACE
+ip addr add  10.0.0.1/24 dev $INTERFACE
 ```
 
 创建 `tinc-down` 配置文件：
@@ -59,7 +59,7 @@ ifconfig $INTERFACE down
 
 对于 ip
 #!/bin/sh
-ip addr del 10.0.0.1/32  dev $INTERFACE
+ip addr del 10.0.0.1/24 dev $INTERFACE
 ip link set $INTERFACE down
 ```
 
@@ -109,6 +109,11 @@ Subnet = 10.0.0.2/32
 
 #!/bin/sh
 ifconfig $INTERFACE 10.0.0.2 netmask 255.255.255.0
+
+对于 ip
+#!/bin/sh
+ip link set $INTERFACE up
+ip addr add  10.0.0.2/24 dev $INTERFACE
 ```
 
 创建 `tinc-down` 配置文件：
@@ -117,6 +122,11 @@ ifconfig $INTERFACE 10.0.0.2 netmask 255.255.255.0
 
 #!/bin/sh
 ifconfig $INTERFACE down
+
+对于 ip
+#!/bin/sh
+ip addr del 10.0.0.2/24 dev $INTERFACE
+ip link set $INTERFACE down
 ```
 
 为脚本设置可执行权限：
