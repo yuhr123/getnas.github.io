@@ -44,3 +44,7 @@ date: '2017-08-08 08:16:44'
 ```
 ~$ fdupes -m ~/pic
 ```
+
+#### 类似软件
+
+与 deupes 类似的软件：[http://alternativeto.net/software/fdupes/](http://alternativeto.net/software/fdupes/)
