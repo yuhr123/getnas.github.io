@@ -45,6 +45,13 @@ date: '2017-08-08 08:16:44'
 ~$ fdupes -m ~/pic
 ```
 
+#### 举例
+
+检查 `pic` 目录及子目录下的重复文件，保留先找到的文件并自动删除其他重复文件：
+```
+~$ fdupes -rdN ~/pic
+```
+
 #### 类似软件
 
 与 deupes 类似的软件：[http://alternativeto.net/software/fdupes/](http://alternativeto.net/software/fdupes/)
