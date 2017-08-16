@@ -150,6 +150,20 @@ ip link set $INTERFACE down
 
 可参照 `Clinet` 添加多个客户端，客户端只需与服务端交换带公钥的主机名配置文件即可，不需要和其他的客户端交换。
 
+### Mac OS X 客户端
+
+使用 brew 安装，程序目录位于 `/usr/local/Cellar/tinc`
+```
+~$ brew install tinc
+```
+
+创建配置文件目录
+```
+~$ mkdir -p /usr/local/etc/tinc
+```
+
+其他配置方式与前面记录的方法相同。
+
 ### Auto start
 
 ```
