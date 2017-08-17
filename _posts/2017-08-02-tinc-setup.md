@@ -164,6 +164,23 @@ ip link set $INTERFACE down
 
 其他配置方式与前面记录的方法相同。
 
+### Windows 客户端
+
+在程序安装目录创建` p2pvpn` 目录及 `hosts` 子目录，tinc.conf 配置文件，注意，要用 Interface 替换 Device：
+```
+Name = lenovo
+Interface = VPN
+ConnectTo = vultr
+```
+
+无需创建 tinc-up 和 tinc-down 配置文件，而是要以管理员身份打开命令行安装虚拟网卡，程序安装目录中提供了 32 位和 64 位两个版本，根据所使用的操作系统选择，执行名录中的 `addtap.bat`。 
+
+虚拟网卡安装完成后，重命名为 `VPN`，此处的名称与 tinc.conf 配置文件中 Interface 的名称相对应。
+
+直接在虚拟网卡属性中配置 IPv4 地址和掩码。
+
+在命令行中启动服务 `tincd.exe -n p2pvpn` 后会自动创建系统服务，配置无误服务即可正常启动。
+
 ### Auto start
 
 ```
