@@ -33,6 +33,10 @@ date: '2017-08-11 14:09:45'
 ~$ sudo iptraf-ng
 ```
 
+### nload
+
+能够分别统计 incoming 和 outgoing 流量，实时速度、平均速度、最大最小以及总流量。
+
 #### 相关链接
 
 * [iftop](http://www.ex-parrot.com/pdw/iftop/)
