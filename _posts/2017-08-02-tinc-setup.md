@@ -191,6 +191,10 @@ ConnectTo = vultr
 ~$ sudo systemctl enable tinc@another_name
 ```
 
+### 重点备忘
+
+无论客户端还是服务端，主机文件中的 `Subnet` 中的 IP 部分要与 `tinc-up` 中的 IP 地址相一致，否则会出现节点之间 PING 不通的现象。
+
 #### See also
 
 * 官网：[https://www.tinc-vpn.org](https://www.tinc-vpn.org)
